@@ -34,3 +34,49 @@ img {
     display: block;
     height: auto;
 }
+
+/* typography styling */
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 120px;
+    line-height: 117px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 51px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 49px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+button {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
