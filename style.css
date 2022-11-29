@@ -39,6 +39,7 @@ img {
 h1 {
     font-family: 'Fredericka the Great', cursive;
     font-size: 120px;
+    color: #fcfcfc;
     line-height: 117px;
     text-transform: uppercase;
 }
@@ -46,12 +47,14 @@ h1 {
 h2 {
     font-family: 'Fredericka the Great', cursive;
     font-size: 51px;
+    color: #fcfcfc;
     text-transform: uppercase;
 }
 
 h3 {
     font-family: 'Fredericka the Great', cursive;
     font-size: 49px;
+    color: #152D20;
     text-transform: uppercase;
 }
 
@@ -86,4 +89,36 @@ button {
 }
 
 
+/* header and navigation styling */
+
+header {
+    height: 100vh;
+    background-image: url(./animal-refuge/animal-land-assets/image-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 25vw;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+    margin-left: 40vw;
+}
 
