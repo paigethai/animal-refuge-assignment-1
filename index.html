@@ -20,69 +20,84 @@
 <body>
     <!-- header and navigation -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Animal Refuge</h1>
+        <div class="wrapper">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Animal Refuge</h1>
+        </div>
+        
     </header>
 
     <main>
 
         <!-- about section -->
         <section class="about" id="about">
-            <div class="about-image-container">
-                <img src="./animal-refuge/animal-land-assets/image-6.jpg" alt="bengal-like cat with green eyes laying on Moroccan pattern pouf">
+            <div class="wrapper">
+
+                <div class="about-image-container">
+                    <img src="./animal-refuge/animal-land-assets/image-6.jpg"
+                        alt="bengal-like cat with green eyes laying on Moroccan pattern pouf">
+                </div>
+                
+                <div class="about-text-container">
+                    <h2>Suzie's Story</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odit et perspiciatis exercitationem corrupti
+                        sapiente, aspernatur quia aliquam molestiae rem quis animi! Officia, quaerat. Dolor fuga doloremque debitis
+                        saepe ut?</p>
+                    <button type="button">Read More</button>
+                </div>
             </div>
             
-            <div class="about-text-container">
-                <h2>Suzie's Story</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odit et perspiciatis exercitationem corrupti sapiente, aspernatur quia aliquam molestiae rem quis animi! Officia, quaerat. Dolor fuga doloremque debitis saepe ut?</p>
-                <button type="button">Read More</button>
-            </div>
         </section>
 
         <!-- gallery section -->
         <section class="gallery" id="gallery">
-            <div class="gallery-text-container">
-                <h3>Some of Our Friends</h3>
+            <div class="wrapper">
+                <div class="gallery-text-container">
+                    <h3>Some of Our Friends</h3>
+                </div>
+                
+                <div class="gallery-image-container">
+                    <ul>
+                        <li>
+                            <img src="./animal-refuge/animal-land-assets/image-5.jpg" alt="green lizard on a tree branch">
+                        </li>
+                        <li>
+                            <img src="./animal-refuge/animal-land-assets/image-4.jpg" alt="white sheep smiling at the camera">
+                        </li>
+                        <li>
+                            <img src="./animal-refuge/animal-land-assets/image-3.jpg" alt="blue and yellow parrot sitting on a branch eating a nut">
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="gallery-image-container">
-                <ul>
-                    <li>
-                        <img src="./animal-refuge/animal-land-assets/image-5.jpg" alt="green lizard on a tree branch">
-                    </li>
-                    <li>
-                        <img src="./animal-refuge/animal-land-assets/image-4.jpg" alt="white sheep smiling at the camera">
-                    </li>
-                    <li>
-                        <img src="./animal-refuge/animal-land-assets/image-3.jpg" alt="blue and yellow parrot sitting on a branch eating a nut">
-                    </li>
-                </ul>
-            </div>
+            
             
         </section>
 
         <!-- icons section -->
         <section class="icons" id="icons">
-            <div class="animal-spotlight">
-                <img>
-                <h5>Animal Spotlight</h5>
-            </div>
-
-            <div class="events">
-                <img>
-                <h5>Events</h5>
-            </div>
-
-            <div class="merch">
-                <img>
-                <h5>merch</h5>
+            <div class="wrapper">
+                <div class="animal-spotlight">
+                    <img>
+                    <h5>Animal Spotlight</h5>
+                </div>
+                
+                <div class="events">
+                    <img>
+                    <h5>Events</h5>
+                </div>
+                
+                <div class="merch">
+                    <img>
+                    <h5>merch</h5>
+                </div>
             </div>
         </section>
 
@@ -111,33 +126,35 @@
 
         <!-- footer section -->
         <section class="footer" id="footer">
-            <div class="footer-nav">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="email-subscription">
-                <h6>Stay Updated</h6>
-                <p>Subscribe to our newsletter to stay updated</p>
-                <form>
-                    <input type="email" name="email" id="email" />
-                    <input type="subscribe" name="subscribe" id="subscribe"/>
-                </form>
-            </div>
-
-            <div class="contact-info">
-                <h6>Contact</h6>
-                <p>info@email.com | 123-456-7890</p>
-                <p> 123 some road, Toronto, ON</p>
-                <p>A5A 5A5, Canada</p>
-            </div>
-
-            <div class="copyright-banner">
-                <p>Copyright 2019 HackerYou</p>
+            <div class="wrapper">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="email-subscription">
+                    <h6>Stay Updated</h6>
+                    <p>Subscribe to our newsletter to stay updated</p>
+                    <form>
+                        <input type="email" name="email" id="email" />
+                        <input type="subscribe" name="subscribe" id="subscribe" />
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h6>Contact</h6>
+                    <p>info@email.com | 123-456-7890</p>
+                    <p> 123 some road, Toronto, ON</p>
+                    <p>A5A 5A5, Canada</p>
+                </div>
+                
+                <div class="copyright-banner">
+                    <p>Copyright 2019 HackerYou</p>
+                </div>
             </div>
         </section>
     </main>
