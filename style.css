@@ -74,9 +74,16 @@ h6 {
     text-transform: uppercase;
 }
 
+p {
+    margin: 25px 0;
+}
+
 button {
     font-family: 'Cormorant Garamond', serif;
     font-size: 18px;
     line-height: 29px;
     text-transform: uppercase;
 }
+
+
+
